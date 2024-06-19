@@ -4,7 +4,7 @@ import "./globals.css";
 import {
   ICONS,
   OPEN_GRAPH,
-  SITE_DESCTIPTION,
+  SITE_DESCRIPTION,
   SITE_NAME,
   TWITTER,
 } from "./constants/seo.constants";
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     absolute: SITE_NAME,
     template: `%s | ${SITE_NAME}`,
   },
-  description: SITE_DESCTIPTION,
+  description: SITE_DESCRIPTION,
   applicationName: SITE_NAME,
   authors: [
     {
