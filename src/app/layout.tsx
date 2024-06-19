@@ -30,6 +30,10 @@ export const metadata: Metadata = {
   openGraph: OPEN_GRAPH,
   twitter: TWITTER,
   manifest: "./manifest.webmanifest",
+  verification: {
+    google: "16pld_1cOtOVgQ6VBL71Tvi48053g-2fto9QD_83W2A",
+    yandex: "ea4da41345b7d890",
+  },
 };
 
 export default function RootLayout({
