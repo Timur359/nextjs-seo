@@ -32,7 +32,7 @@ export const metadata: Metadata = {
   manifest: "./manifest.webmanifest",
   verification: {
     google: "d9D3urzoPKjX31GXHnPXAci2Tggz2GHC33krQ-wGLtI",
-    yandex: "ea4da41345b7d890",
+    yandex: "ed711c207e4d7710",
   },
 };
 
