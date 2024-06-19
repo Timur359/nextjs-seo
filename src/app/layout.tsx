@@ -8,6 +8,7 @@ import {
   SITE_NAME,
   TWITTER,
 } from "./constants/seo.constants";
+import { GoogleAnalytics } from "@next/third-parties/google";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -38,7 +39,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        {children}
+        <GoogleAnalytics gaId="G-XKFL67Z3CH" />
+      </body>
     </html>
   );
 }
