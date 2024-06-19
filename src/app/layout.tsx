@@ -31,7 +31,7 @@ export const metadata: Metadata = {
   twitter: TWITTER,
   manifest: "./manifest.webmanifest",
   verification: {
-    google: "16pld_1cOtOVgQ6VBL71Tvi48053g-2fto9QD_83W2A",
+    google: "d9D3urzoPKjX31GXHnPXAci2Tggz2GHC33krQ-wGLtI",
     yandex: "ea4da41345b7d890",
   },
 };
